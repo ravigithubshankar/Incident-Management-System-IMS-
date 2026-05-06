@@ -84,7 +84,8 @@ graph TB
 - Docker & Docker Compose
 - Python 3.11+ (for local development)
 
-### Deployment
+
+### Deployment (Docker)
 ```bash
 # Clone the repository
 git clone https://github.com/ravigithubshankar/Incident-Management-System-IMS-.git
@@ -92,6 +93,18 @@ cd incident-management-system
 
 # Start the entire stack
 docker compose up --build -d
+```
+
+### Local Development (Windows)
+```powershell
+# Start the Backend
+cd backend
+./start_server.bat
+
+# Start the Frontend
+cd ../frontend
+npm install
+npm run dev
 ```
 
 | Service | URL |
