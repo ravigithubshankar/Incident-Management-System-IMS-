@@ -87,7 +87,7 @@ graph TB
 ### Deployment
 ```bash
 # Clone the repository
-git clone <repo-url>
+git clone https://github.com/ravigithubshankar/Incident-Management-System-IMS-.git
 cd incident-management-system
 
 # Start the entire stack
